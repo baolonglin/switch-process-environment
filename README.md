@@ -19,9 +19,10 @@ Add require in your configuration file:
 Customize *switch-process-environment-variables*
 
 In your Emacs, execute:
-*switch-process-environment-setup*: load the configured vairables, it can be exeucted multiple time. It removes all runtime environments, if you use *switch-rprocess-environment-save* before, those saved environments will be lost.
-*switch-process-environment-switch*: switch to other environment.
-*switch-process-environment-save*: save current process environment into runtime environments.
+
+* *switch-process-environment-setup*: load the configured vairables, it can be exeucted multiple time. It removes all runtime environments, if you use *switch-rprocess-environment-save* before, those saved environments will be lost.
+* *switch-process-environment-switch*: switch to other environment.
+* *switch-process-environment-save*: save current process environment into runtime environments.
 
 
 
