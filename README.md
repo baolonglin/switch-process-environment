@@ -2,7 +2,9 @@
 
 ## Motivation
 Different projects need different shell environment, but don't want to start several emacs.
+
 Shell environment need to be updated, but don't wnat to call *setenv* several times.
+
 Same project has different compilation mode, need different shell environment, but don't want to start several emacs.
 
 ## Known Limitation
