@@ -9,6 +9,7 @@ Same project has different compilation mode, need different shell environment, b
 
 ## Known Limitation
 * need Emacs version > 25
+* some packages' variable may only set once depends on the exec-path, those vairables can't be updated
 
 ## Installation
 Download switch-process-environment.el, put it into a directory which in *load-path*
