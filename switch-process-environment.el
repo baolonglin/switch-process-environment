@@ -167,6 +167,8 @@
 (defun switch-process-environment-setup ()
   "Setup process environment according the customed variables."
   (interactive)
+  (when switch-process-environment-current-environment
+    (switch-process-environment-switch "default"))
   (setq switch-process-environment-runtime-environments `((default . ,initial-environment)))
   (setq switch-process-environment-runtime-environments
         (append switch-process-environment-runtime-environments
